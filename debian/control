@@ -1,5 +1,5 @@
 Source: python3-random-quote
-Maintainer: Thomas Stringer <github@trstringer.com>
+Maintainer: msaali ali <msaali761@gmail.com>
 Build-Depends: debhelper,dh-python,python3-all,python3-setuptools
 Section: devel
 Priority: optional
