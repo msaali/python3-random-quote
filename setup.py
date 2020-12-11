@@ -8,9 +8,9 @@ setup(
     author='msaali ali',
     author_email='msaali761@gmail.com',
     license='MIT',
-    install_requires=['requests'],
-    packages=find_packages(),
-    entry_points=dict(
-        console_scripts=['rq=src.main:display_quote']
-    )
+    #install_requires=['requests'],
+    packages=find_packages()
+    #entry_points=dict(
+        #console_scripts=['rq=src.main:display_quote']
+    #)
 )
