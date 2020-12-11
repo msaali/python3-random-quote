@@ -1,17 +1,20 @@
-import requests
+print("Hello World")
 
-_QUOTE_URL = 'https://quotes.rest/qod'
 
-def get_random_quote():
-    """Get a random quote."""
+# import requests
 
-    res = requests.get(_QUOTE_URL)
-    return res.json()['contents']['quotes'][0]['quote']
+# _QUOTE_URL = 'https://quotes.rest/qod'
 
-def display_quote():
-    """Display a random quote."""
+# def get_random_quote():
+#     """Get a random quote."""
 
-    print(f'My random quote is: "{get_random_quote()}"')
+#     res = requests.get(_QUOTE_URL)
+#     return res.json()['contents']['quotes'][0]['quote']
 
-if __name__ == '__main__':
-    display_quote()
+# def display_quote():
+#     """Display a random quote."""
+
+#     print(f'My random quote is: "{get_random_quote()}"')
+
+# if __name__ == '__main__':
+#     display_quote()
